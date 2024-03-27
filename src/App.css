@@ -1,0 +1,162 @@
+.wrapper{
+  background-image: url('https://mediblisstours.com/wp-content/uploads/2022/03/Medibliss_Blog.jpg');
+  height:80vh;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.tagline{
+  color: #163172;
+  font-size: 30px;
+}
+span{
+  color:#163172;
+  font-size: 15px;
+ float: right;
+  
+}
+
+*{
+  margin-top: 2px;
+}
+.butn{
+  text-align: center;
+  font-size: 20px;
+}
+.about{
+  color: #163172;
+  text-align: center;
+  font-size: 40px;
+}
+.form-inline{
+  color: #163172;
+  font-size: 30px;
+  display: flex;
+}
+
+.para{
+  font-size: 20px;
+  
+}
+.logo1{
+  display: flex;
+}
+i{
+  font-size: 16px;
+}
+.network{
+  color: #163172;
+  text-align: center;
+  font-size: 40px;
+}
+footer{
+  text-align: center;
+}
+#country-info:hover{
+  box-shadow: 0px 0px  50px burlywood;
+  transform: scale(1.05);
+}
+ 
+.details{
+  background: radial-gradient(401px at 50.6% -0.3%, rgba(255, 255, 255, 0.31) 1.2%, rgb(36, 212, 219) 100.2%);
+ 
+
+}
+
+.history{
+  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+
+#abtus{
+  padding-left: 20px;
+}
+.form-1{
+  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.container1{
+  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.invite{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  padding: 20px;
+  background-color:white;
+  width: 500px;
+  height: 300px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-left: 40px;
+ 
+
+}
+
+.cap{
+  color: #163172;
+}
+
+
+
+@media (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .navbar-collapse {
+    order: -1;
+  }
+
+  .navbar-expand-sm .navbar-nav {
+    flex-direction: column;
+  }
+
+  .navbar-expand-sm .navbar-nav .nav-item {
+    margin-bottom: 5px;
+  }
+
+  .navbar-expand-sm .navbar-toggler {
+    display: block;
+  }
+
+  .navbar-expand-sm .navbar-collapse {
+    display: none;
+    text-align: center;
+  }
+
+  .navbar-expand-sm .navbar-collapse.show {
+    display: flex;
+    flex-direction: column;
+    background-color: black; 
+    position: absolute;
+    width: 100%;
+    top: 60px; 
+    z-index: 1;
+  }
+
+  .navbar-expand-sm .navbar-collapse .nav-link {
+    padding: 10px;
+  }
+}
+
+  
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup p {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
